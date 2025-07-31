@@ -21,8 +21,7 @@ const MAPPING = {
   'list-alt': 'list-alt',
   'calendar-today': 'calendar-today',
   'fast-forward': 'fast-forward',
-
-} as IconMapping;
+} as unknown as IconMapping;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
